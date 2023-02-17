@@ -1,6 +1,6 @@
 <template>
-  <h1>Black Hawks Scouting</h1>
-  <h2>Form Selection</h2>
+  <h1>2152 SMASH Scouting</h1>
+  <h2>Scouting Forms</h2>
   <ul v-if="list.length > 0" class="link-list">
     <li v-for="[i, name] of list.entries()" :key="i">
       <RouterLink :to="{ name: 'form', query: { name } }">{{ name }}</RouterLink>
