@@ -1,7 +1,7 @@
 <template>
   <div v-show="show">
     <h1 class="page-heading">{{ config.data.heading ?? "Scouting" }}</h1>
-    <img v-if="config.data.logo" :src="absoluteLogoPath" alt="Cannot load logo file" class="center" />
+    <img v-if="config.data.logo" :src="absoluteLogoPath" alt="Cannot load logo file" class="center" height="300" width="310"/>
     <h2 class="page-heading">{{ title }}</h2>
     <div class="grid">
       <slot></slot>
