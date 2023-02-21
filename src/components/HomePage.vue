@@ -12,6 +12,9 @@
     <li>
       <RouterLink :to="{ name: 'inspector' }">Data Inspector</RouterLink>
     </li>
+    <li>
+      <a href="https://docs.google.com/document/d/1-HgbNw-TdRhQ4DJKG9C3BOcHSc-WlC92WXWyaqcHNgc/edit?usp=sharing">Scouting Guide</a>
+    </li>
   </ul>
 </template>
 
