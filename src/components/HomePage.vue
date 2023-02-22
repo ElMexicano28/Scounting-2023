@@ -14,8 +14,12 @@
     </li>
     <li>
       <a href="https://docs.google.com/document/d/1-HgbNw-TdRhQ4DJKG9C3BOcHSc-WlC92WXWyaqcHNgc/edit?usp=sharing">Scouting Guide</a>
+      <p>Scouting guide only visible on WiFi.</p>
     </li>
   </ul>
+  <footer>
+    <p>test</p>
+  </footer>
 </template>
 
 <script setup lang="ts">
