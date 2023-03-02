@@ -8,6 +8,7 @@
     <FormGroup :label-type="LabelType.PlainText" name="Matches Loaded">{{ matchesLoadStatus }}</FormGroup>
     <FormGroup :label-type="LabelType.LabelTag" id="match-level-input" name="Match Level">
       <select id="match-level-input" v-model.number="matchLevel" :disabled="config.data.forceQualifiers">
+        <option value="-1">Qualifications</option>
         <option value="0">Qualifications</option>
         <option value="1">Quarterfinals</option>
         <option value="2">Semifinals</option>
