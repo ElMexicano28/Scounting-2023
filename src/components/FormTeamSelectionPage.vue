@@ -8,11 +8,11 @@
     <FormGroup :label-type="LabelType.PlainText" name="Matches Loaded">{{ matchesLoadStatus }}</FormGroup>
     <FormGroup :label-type="LabelType.LabelTag" id="match-level-input" name="Match Level">
       <select id="match-level-input" v-model.number="matchLevel" :disabled="config.data.forceQualifiers">
-        <option value="Practice">Practice</option>
-        <option value="Qualifications">Qualifications</option>
-        <option value="Finals">Quarterfinals</option>
-        <option value="Semifinals">Semifinals</option>
-        <option value="Finals">Finals</option>
+        <option value="-1">Practice</option>
+        <option value="0">Qualifications</option>
+        <option value="1">Quarterfinals</option>
+        <option value="2">Semifinals</option>
+        <option value="3">Finals</option>
       </select>
     </FormGroup>
     <FormGroup :label-type="LabelType.LabelTag" id="match-input" name="Match Number">
@@ -71,7 +71,8 @@ const currentMatch = $computed(() => {
   // Get the matches with the selected level
   const matchLevelCodes = ["qm", "qf", "sf", "f"];
   const matchList = matches.filter((match: unknown) => get(match, "comp_level") === matchLevelCodes[matchLevel]);
-
+  //const matchList 
+  
   // When ordering matches, the match number takes priority over the set number.
   // Quarterfinals and semifinals are described as: (Quarters|Semis) [X] Match [Y]
   // => [X]: Set number (Is always under 10)
