@@ -1,6 +1,7 @@
 {
   "heading": "2152 SMASH - Practice Matches Scouting",
   "logo": "logo.png",
+  "skipTeamSelection": true,
   "pages": [
     {
       "name": "Team Selection",
