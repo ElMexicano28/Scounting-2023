@@ -18,6 +18,7 @@
   </ul>
   <footer>
     <p class=center>Scouting guide only visible on WiFi.</p>
+    <p class=center>version 1.4</p>
   </footer>
 </template>
 
