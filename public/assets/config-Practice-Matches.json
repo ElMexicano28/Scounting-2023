@@ -14,9 +14,9 @@
           "name": "Team Number",
           "type": "text",
           "colspan": 2
-        },
-        ]
-      },
+        }
+      ]
+    },
       {
       "name": "Setup & Autonomous",
       "widgets": [
