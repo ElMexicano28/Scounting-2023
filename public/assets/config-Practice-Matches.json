@@ -8,13 +8,11 @@
       "widgets": [
         {
           "name": "Match Number",
-          "type": "text",
-          "colspan": 2
+          "type": "number"
         },
         {
           "name": "Team Number",
-          "type": "text",
-          "colspan": 2
+          "type": "number"
         }
       ]
     },
