@@ -1,6 +1,6 @@
 <template>
   <h1>2152 SMASH Scouting</h1>
-  <img v-if="homeicon" :src="absoluteLogoPath" alt="Cannot load logo file" class="center"/>
+  <img src="absoluteLogoPath" alt="Cannot load logo file" class="center"/>
   <h2>Scouting Forms</h2>
   <ul v-if="list.length > 0" class="link-list">
     <li v-for="[i, name] of list.entries()" :key="i">
@@ -17,11 +17,11 @@
       <a href="https://docs.google.com/document/d/1-HgbNw-TdRhQ4DJKG9C3BOcHSc-WlC92WXWyaqcHNgc/edit?usp=sharing">Scouting Guide</a>
     </li>
   </ul>
-  <hr>
+  <hr class="hr-foot">
   <footer>
     <a href="https://docs.google.com/document/d/1tLWlmi7ly8g3DTRoSJ2bLTwDb03RbQjyfWhjasTeNqI/edit?usp=sharing">Version 1.1.0</a>
   </footer>
-  <hr>
+  <hr class="hr-foot">
 </template>
 
 <script setup lang="ts">
@@ -46,5 +46,8 @@ const list = $ref(textData.split("\n").map(value => value.trim()).filter(value =
   li {
     margin: 6px 0;
   }
+}
+.hr-foot {
+  hr: ;
 }
 </style>
