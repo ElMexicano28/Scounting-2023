@@ -18,7 +18,7 @@
     <FormGroup :label-type="LabelType.LabelTag" id="match-input" name="Match Number">
       <input id="match-input" type="number" v-model.lazy="matchNumber" :min="1" />
     </FormGroup>
-    <FormGroup :label-type="LabelType.LabelTag" id="team-input" name="Team">
+    <FormGroup :label-type="LabelType.LabelTag" id="team-input" name="Select Team">
       <span v-if="currentMatch === null">&lt;No Data&gt;</span>
       <select v-else id="team-input" v-model="selectedTeam">
         <option v-for="[i, { color, index, number, name }] of teamsList.entries()" :key="i" :value="i">
