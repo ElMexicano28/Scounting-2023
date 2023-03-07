@@ -47,7 +47,8 @@ const list = $ref(textData.split("\n").map(value => value.trim()).filter(value =
     margin: 6px 0;
   }
 }
-.hr-foot {
-  hr: ;
+hr.style-one {
+    border: 0;
+    height: 1px;
 }
 </style>
