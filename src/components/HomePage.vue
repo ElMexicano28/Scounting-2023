@@ -1,6 +1,6 @@
 <template>
   <h1>2152 SMASH Scouting</h1>
-  <img src="home_icon.png" alt="SMASH Logo">
+  <img v-if="config.data.logo" :src="absoluteLogoPath" alt="Cannot load logo file" class="center"/>
   <h2>Scouting Forms</h2>
   <ul v-if="list.length > 0" class="link-list">
     <li v-for="[i, name] of list.entries()" :key="i">
@@ -25,6 +25,9 @@
 </template>
 
 <script setup lang="ts">
+// Fetch logo path
+const absoluteLogoPath = $computed(() => `${import.meta.env.BASE_URL}assets/home_icon.png`);
+
 // Fetch configurations list
 const fetchResult = await fetch(`${import.meta.env.BASE_URL}assets/configurations.txt`);
 
