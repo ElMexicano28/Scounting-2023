@@ -26,7 +26,7 @@
 
 <script setup lang="ts">
 // Fetch logo path
-const absoluteLogoPath = $computed(() => `${import.meta.env.BASE_URL}assets/home_icon`);
+const absoluteLogoPath = $computed(() => `${import.meta.env.BASE_URL}assets/home_icon.png`);
 
 // Fetch configurations list
 const fetchResult = await fetch(`${import.meta.env.BASE_URL}assets/configurations.txt`);
