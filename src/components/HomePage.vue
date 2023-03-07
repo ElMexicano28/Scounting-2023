@@ -16,10 +16,11 @@
       <a href="https://docs.google.com/document/d/1-HgbNw-TdRhQ4DJKG9C3BOcHSc-WlC92WXWyaqcHNgc/edit?usp=sharing">Scouting Guide</a>
     </li>
   </ul>
+  <hr>
   <footer>
-    <hr>
     <a href="https://docs.google.com/document/d/1tLWlmi7ly8g3DTRoSJ2bLTwDb03RbQjyfWhjasTeNqI/edit?usp=sharing">Version 1.1.0</a>
   </footer>
+  <hr>
 </template>
 
 <script setup lang="ts">
