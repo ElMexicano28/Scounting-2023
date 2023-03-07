@@ -1,6 +1,6 @@
 <template>
   <h1>2152 SMASH Scouting</h1>
-  <img :src="absoluteLogoPath" alt="Cannot load logo file" class="center">
+  <img :src="absoluteLogoPath" alt="Cannot load logo file" class="center" width="400" height="150">
   <h2>Scouting Forms</h2>
   <ul v-if="list.length > 0" class="link-list">
     <li v-for="[i, name] of list.entries()" :key="i">
