@@ -17,8 +17,7 @@
     </li>
   </ul>
   <footer>
-    <p class=center>Scouting guide only visible on WiFi.</p>
-    <p class=center>version 1.4</p>
+    <a href="https://docs.google.com/document/d/1tLWlmi7ly8g3DTRoSJ2bLTwDb03RbQjyfWhjasTeNqI/edit?usp=sharing">Version 1.1.0</a>
   </footer>
 </template>
 
