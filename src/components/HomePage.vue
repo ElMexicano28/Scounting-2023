@@ -17,6 +17,7 @@
     </li>
   </ul>
   <footer>
+    <hr>
     <a href="https://docs.google.com/document/d/1tLWlmi7ly8g3DTRoSJ2bLTwDb03RbQjyfWhjasTeNqI/edit?usp=sharing">Version 1.1.0</a>
   </footer>
 </template>
