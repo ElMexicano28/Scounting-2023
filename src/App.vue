@@ -36,10 +36,10 @@ img {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-   background-position: center;
+  /*background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../public/assets/Adrian.jpg');
+  background-image: url('../public/assets/Adrian.jpg');*/
   background-color: var(--bg-color);
   margin: 0;
 }
