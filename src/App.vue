@@ -36,6 +36,7 @@ img {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url('../public/assets/Adrian.jpg');
   background-color: var(--bg-color);
   margin: 0;
 }
