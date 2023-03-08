@@ -19,9 +19,8 @@
   </ul>
   <br>
   <br>
-  <br>
   <footer>
-    <h5>Version 1.1.0</h5>
+    <h4>Version 1.1.0</h4>
   </footer>
 </template>
 
