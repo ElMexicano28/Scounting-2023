@@ -21,7 +21,7 @@
   <br>
   <br>
   <footer>
-    <a href="https://docs.google.com/document/d/1tLWlmi7ly8g3DTRoSJ2bLTwDb03RbQjyfWhjasTeNqI/edit?usp=sharing">Version 1.1.0</a>
+    <h5>Version 1.1.0</h5>
   </footer>
 </template>
 
