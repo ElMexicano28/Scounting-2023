@@ -21,7 +21,6 @@
   <br>
   <footer>
     <h4>Version 1.1.0</h4>
-    <iframe src="https://drive.google.com/file/d/1Gim8JBVcyI4-WWZ1eIv9zuVs6SATOrwn/preview" width="640" height="480" allow="autoplay"></iframe>
   </footer>
 </template>
 
