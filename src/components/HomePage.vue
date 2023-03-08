@@ -20,7 +20,7 @@
   <br>
   <br>
   <footer>
-    <h4>Version 1.1.0</h4>
+    <h4><a href="../public/assets/Adrian.jpg">"Version 1.1.0</a></h4>
   </footer>
 </template>
 
