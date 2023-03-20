@@ -2,7 +2,7 @@
   <div id="adrian-container">
     <Suspense>
       <template #default>
-        <HomePage />
+        <Adrian />
       </template>
       <template #fallback>Loading...</template>
     </Suspense>
@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import HomePage from "@/components/Adrian.vue";
+import Adrian from "@/components/Adrian.vue";
 </script>
 
 <style>
