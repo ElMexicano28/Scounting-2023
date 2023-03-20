@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 // Fetch logo path
-const absoluteLogoPath = $computed(() => `${import.meta.env.BASE_URL}assets/adrian.png`);
+const absoluteLogoPath = $computed(() => `${import.meta.env.BASE_URL}assets/Adrian.jpg`);
 </script>
 
 <style lang="postcss">
