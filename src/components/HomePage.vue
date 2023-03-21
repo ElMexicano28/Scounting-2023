@@ -20,7 +20,7 @@
   <br>
   <br>
   <footer>
-    <RouterLink :to="{ name: 'adrian' }"><h5>Version 1.1.0</h5></RouterLink>
+    <RouterLink :to="{ name: 'adrian' }" class=custom-href><h5 class=custom-href>Version 1.1.0</h5></RouterLink>
   </footer>
 </template>
 
@@ -39,7 +39,13 @@ const textData = await fetchResult.text();
 const list = $ref(textData.split("\n").map(value => value.trim()).filter(value => value.length > 0));
 </script>
 
-<style lang="postcss">
+<style>
+.custom-href {
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: none; }
+}
 .link-list {
   margin: 0;
 
