@@ -20,7 +20,7 @@
   <br>
   <br>
   <footer>
-    <RouterLink :to="{ name: 'adrian' }" class=custom-href><h5 class=custom-href>Version 1.1.0</h5></RouterLink>
+    <RouterLink class=custom-href :to="{ name: 'adrian' }"><h5>Version 1.1.0</h5></RouterLink>
   </footer>
 </template>
 
