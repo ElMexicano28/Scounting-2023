@@ -1,142 +1,104 @@
 {
-  "heading": "2152 SMASH - Matches Scouting",
+  "heading": "2152 SMASH - Pits Scouting",
   "logo": "logo.png",
+  "skipTeamSelection": true,
   "pages": [
     {
-      "name": "Setup & Autonomous",
+      "name": "Team",
       "widgets": [
         {
-          "name": "Scouter Name",
-          "type": "text",
-          "colspan": 2
+          "name": "Team Number",
+          "type": "number"
         },
         {
-          "name": "Starting Position",
-          "type": "positions",
-          "file": "field.png",
-          "height": 200,
-          "colspan": 2
-        },
-        {
-          "name": "Left Community",
-          "type": "checkbox"
-        },
-        {
-          "type": "picture",
-          "file": "grid.png",
-          "height": 300,
-          "row": 4,
-          "col": 3,
-          "rowspan": 4
-        },
-        {
-          "name": "Top Scored",
-          "type": "spinbox",
-          "prefix": "Auto",
-          "row": 4,
-          "col": 1
-        },
-        {
-          "name": "Middle Scored",
-          "type": "spinbox",
-          "prefix": "Auto"
-        },
-        {
-          "name": "Bottom Scored",
-          "type": "spinbox",
-          "prefix": "Auto"
-        },
-        {
-          "type": "spacer",
-          "height": 40
-        },
-        {
-          "name": "Docked To Charging Station",
-          "type": "checkbox",
-          "labelColspan": 2
-        },
-        {
-          "name": "Charging Station Engaged",
-          "type": "checkbox",
-          "labelColspan": 2
-        }
-      ]
-    },
-    {
-      "name": "Teleop",
-      "widgets": [
-        {
-          "type": "picture",
-          "file": "grid.png",
-          "height": 300,
-          "col": 3,
-          "rowspan": 4
-        },
-        {
-          "name": "Top Scored",
-          "type": "spinbox",
-          "row": 1,
-          "col": 1
-        },
-        {
-          "name": "Middle Scored",
-          "type": "spinbox"
-        },
-        {
-          "name": "Bottom Scored",
-          "type": "spinbox"
-        },
-        {
-          "name": "Links Scored",
-          "type": "spinbox"
-        },
-        {
-          "name": "Co-Op Bonus",
-          "type": "checkbox"
-        },
-        {
-          "name": "Defense Rating",
-          "type": "dropdown",
-          "options": [
-            "Not Played",
-            "Not Effective",
-            "Average",
-            "Very Effective"
-          ],
-          "labelColspan": 2
-        }
-      ]
-    },
-    {
-      "name": "Endgame",
-      "widgets": [
-        {
-          "name": "Parking",
-          "type": "radio",
-          "options": [
-            "Docked+Engaged",
-            "Docked Only",
-            "Parked",
-            "None"
-          ],
-          "default": 3
-        },
-        {
-          "name": "Failed To Engage",
-          "type": "checkbox"
-        },
-        {
-          "name": "Robots Docked",
-          "type": "spinbox",
-          "max": 3
-        },
-        {
-          "name": "Mechanical Failures",
+          "name": "Drive Coach",
           "type": "text"
         },
         {
+          "name": "Driver Names",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Robot",
+      "widgets": [
+        {
+          "name": "Height",
+          "type": "number"
+        },
+        {
+          "name": "Weight",
+          "type": "number"
+        },
+        {
+          "name": "Drivetrain",
+          "type": "dropdown",
+          "options": [
+            "West Coast",
+            "Swerve",
+            "Butterfly",
+            "Mecanum",
+            "Other"
+          ]
+        },
+        {
+          "name": "Has Driver Camera",
+          "type": "checkbox"
+        }
+      ]
+    },
+    {
+      "name": "Robot Capabilities",
+      "widgets": [
+        {
+          "name": "Dock Time",
+          "type": "number"
+        },
+        {
+          "name": "Field Cross Time",
+          "type": "number"
+        },
+        {
+          "name": "Can Pick Up",
+          "type": "multicheckbox",
+          "options": [
+            "Cones",
+            "Cubes"
+          ]
+        },
+        {
           "name": "Comments",
-          "type": "textarea"
+          "type": "textarea",
+          "colspan": 3
+        }
+      ]
+    },
+    {
+      "name": "Autonomous",
+      "widgets": [  
+        {
+          "name": "Has Autonomous",
+          "type": "checkbox"
+        },
+        {
+          "name": "Parking",
+          "type": "multicheckbox",
+          "options": [
+            "Parking",
+            "Docking",
+            "Engaging"
+          ]
+        },
+        {
+          "name": "Score Pieces",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Middle",
+            "Low",
+            "None"
+          ]
         }
       ]
     }
