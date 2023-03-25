@@ -56,13 +56,8 @@
           "type": "number"
         },
         {
-          "name": "Parking",
-          "type": "multicheckbox",
-          "options": [
-            "Parking",
-            "Docking",
-            "Engaging"
-          ]
+          "name": "Field Cross Time",
+          "type": "number"
         },
         {
           "name": "Can Pick Up",
@@ -76,6 +71,34 @@
           "name": "Comments",
           "type": "textarea",
           "colspan": 3
+        }
+      ]
+    },
+    {
+      "name": "Autonomous",
+      "widgets": [  
+        {
+          "name": "Has Autonomous",
+          "type": "checkbox"
+        },
+        {
+          "name": "Parking",
+          "type": "multicheckbox",
+          "options": [
+            "Parking",
+            "Docking",
+            "Engaging"
+          ]
+        },
+        {
+          "name": "Score Pieces",
+          "type": "dropdown",
+          "options": [
+            "High",
+            "Middle",
+            "Low",
+            "None"
+          ]
         }
       ]
     }
