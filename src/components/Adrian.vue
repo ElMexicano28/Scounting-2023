@@ -1,16 +1,16 @@
 <template>
   <div :id="funnies">
-    <RouterLink :to="/assets/Adrian">Adrian</RouterLink>
+    <a href="https://elmexicano28.github.io/Scounting-2023/assets/assets/Adrian.jpg">Adrian</a>
     <br>
-    <RouterLink :to="/assets/brian">Brian</RouterLink>
+    <a href="https://elmexicano28.github.io/Scounting-2023/assets/assets/brian.png">Brian</a>
     <br>
-    <RouterLink :to="/assets/savanna">Savanna</RouterLink>
+    <a href="https://elmexicano28.github.io/Scounting-2023/assets/assets/savanna.png">Savanna</a>
     <br>
-    <RouterLink :to="/assets/caden">Caden</RouterLink>
+    <a href="https://elmexicano28.github.io/Scounting-2023/assets/assets/caden.png">Caden</a>
     <br>
-    <RouterLink :to="/assets/stears">Mr. Stears</RouterLink>
+    <a href="https://elmexicano28.github.io/Scounting-2023/assets/assets/stears,png">Mr. Stears</a>
     <br>
-    <RouterLink :to="/assets/julien">Julien</RouterLink>
+    <a href="https://elmexicano28.github.io/Scounting-2023/assets/assets/julien.png">Julien</a>
   </div>
 </template>
 
