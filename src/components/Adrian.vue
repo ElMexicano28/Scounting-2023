@@ -1,11 +1,11 @@
 <template>
   <div :id="funnies">
-    <a href="https://elmexicano28.github.io/Scounting-2023/assets/Adrian.jpg">Adrian</a>
-    <a href="https://elmexicano28.github.io/Scounting-2023/assets/brian.png">Brian</a>
-    <a href="https://elmexicano28.github.io/Scounting-2023/assets/savanna.png">Savanna</a>
-    <a href="https://elmexicano28.github.io/Scounting-2023/assets/caden.png">Caden</a>
-    <a href="https://elmexicano28.github.io/Scounting-2023/assets/stears.png">Mr. Stears</a>
-    <a href="https://elmexicano28.github.io/Scounting-2023/assets/julien.png">Julien</a>
+    <RouterLink :to="/assets/Adrian.jpg">Adrian</RouterLink>
+    <RouterLink :to"/assets/brian.png">Brian</a>
+    <RouterLink :to="/assets/savanna.png">Savanna</a>
+    <RouterLink :to="/assets/caden.png">Caden</a>
+    <RouterLink :to="/assets/stears.png">Mr. Stears</a>
+    <RouterLink :to="/assets/julien.png">Julien</a>
   </div>
 </template>
 
