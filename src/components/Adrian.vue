@@ -1,8 +1,8 @@
 <template>
   <div :id="funnies">
-    <img :src="adrian" alt="Cannot load logo file" class="center" width="1700" height="2000">
+    <img :src="adrian" alt="Cannot load logo file" class="center" width="1500" height="2000">
     <br>
-    <img :src="caden" alt="Cannot load logo file" class="center" width="1700" height="2000">
+    <img :src="caden" alt="Cannot load logo file" class="center" width="1500" height="2000">
     <br>
   </div>
 </template>
