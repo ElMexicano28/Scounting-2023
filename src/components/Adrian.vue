@@ -1,16 +1,16 @@
 <template>
   <div :id="funnies">
-    <RouterLink :to="#/assets/Adrian">Adrian</RouterLink>
+    <RouterLink :to="/assets/Adrian">Adrian</RouterLink>
     <br>
-    <RouterLink :to="#/assets/brian">Brian</RouterLink>
+    <RouterLink :to="/assets/brian">Brian</RouterLink>
     <br>
-    <RouterLink :to="#/assets/savanna">Savanna</RouterLink>
+    <RouterLink :to="/assets/savanna">Savanna</RouterLink>
     <br>
-    <RouterLink :to="#/assets/caden">Caden</RouterLink>
+    <RouterLink :to="/assets/caden">Caden</RouterLink>
     <br>
-    <RouterLink :to="#/assets/stears">Mr. Stears</RouterLink>
+    <RouterLink :to="/assets/stears">Mr. Stears</RouterLink>
     <br>
-    <RouterLink :to="#/assets/julien">Julien</RouterLink>
+    <RouterLink :to="/assets/julien">Julien</RouterLink>
   </div>
 </template>
 
