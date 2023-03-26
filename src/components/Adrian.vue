@@ -1,10 +1,15 @@
 <template>
   <div :id="funnies">
     <RouterLink :to="/assets/Adrian.jpg">Adrian</RouterLink>
-    <RouterLink :to"/assets/brian.png">Brian</a>
+    <br>
+    <RouterLink :to="/assets/brian.png">Brian</a>
+    <br>
     <RouterLink :to="/assets/savanna.png">Savanna</a>
+    <br>
     <RouterLink :to="/assets/caden.png">Caden</a>
+    <br>
     <RouterLink :to="/assets/stears.png">Mr. Stears</a>
+    <br>
     <RouterLink :to="/assets/julien.png">Julien</a>
   </div>
 </template>
