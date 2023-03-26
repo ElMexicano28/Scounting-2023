@@ -2,15 +2,15 @@
   <div :id="funnies">
     <RouterLink :to="/assets/Adrian.jpg">Adrian</RouterLink>
     <br>
-    <RouterLink :to="/assets/brian.png">Brian</a>
+    <RouterLink :to="/assets/brian.png">Brian</RouterLink>
     <br>
-    <RouterLink :to="/assets/savanna.png">Savanna</a>
+    <RouterLink :to="/assets/savanna.png">Savanna</RouterLink>
     <br>
-    <RouterLink :to="/assets/caden.png">Caden</a>
+    <RouterLink :to="/assets/caden.png">Caden</RouterLink>
     <br>
-    <RouterLink :to="/assets/stears.png">Mr. Stears</a>
+    <RouterLink :to="/assets/stears.png">Mr. Stears</RouterLink>
     <br>
-    <RouterLink :to="/assets/julien.png">Julien</a>
+    <RouterLink :to="/assets/julien.png">Julien</RouterLink>
   </div>
 </template>
 
