@@ -1,16 +1,16 @@
 <template>
   <div :id="funnies">
-    <a href="https://elmexicano28.github.io/Scounting-2023/assets/Adrian.jpg">Adrian</a>
+    <a href="https://ryanhubbs.github.io/2152-Scouting/assets/Adrian.jpg">Adrian</a>
     <br>
-    <a href="https://elmexicano28.github.io/Scounting-2023/assets/brian.png">Brian</a>
+    <a href="https://ryanhubbs.github.io/2152-Scouting/assets/brian.png">Brian</a>
     <br>
-    <a href="https://elmexicano28.github.io/Scounting-2023/assets/savanna.png">Savanna</a>
+    <a href="https://ryanhubbs.github.io/2152-Scouting/assets/savanna.png">Savanna</a>
     <br>
-    <a href="https://elmexicano28.github.io/Scounting-2023/assets/caden.png">Caden</a>
+    <a href="https://ryanhubbs.github.io/2152-Scouting/assets/caden.png">Caden</a>
     <br>
-    <a href="https://elmexicano28.github.io/Scounting-2023/assets/stears.png">Mr. Stears</a>
+    <a href="https://ryanhubbs.github.io/2152-Scouting/assets/stears.png">Mr. Stears</a>
     <br>
-    <a href="https://elmexicano28.github.io/Scounting-2023/assets/julien.png">Julien</a>
+    <a href="https://ryanhubbs.github.io/2152-Scouting/assets/julian.png">Julien</a>
   </div>
 </template>
 
