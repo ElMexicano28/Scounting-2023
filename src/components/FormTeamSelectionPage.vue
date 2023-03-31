@@ -116,7 +116,7 @@ const teamsList = $computed(() => {
 });
 
 // The exported team information
-const teamData = $computed(() => Object.values(teamsList[selectedTeam]).join() : "");
+const teamData = $computed(() => teamsList[selectedTeam] ? Object.values(teamsList[selectedTeam]).join() : "");
 
 // Add values to export
 widgets.addWidgetValue("EventKey", $$(eventKey));
