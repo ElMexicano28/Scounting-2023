@@ -116,14 +116,13 @@ const teamsList = $computed(() => {
 });
 
 // The exported team information
-const teamData = $computed(() => teamsList[selectedTeam] ? Object.values(teamsList[selectedTeam]).join() : "");
+const teamData = $computed(() => Object.values(teamsList[selectedTeam]).join() : "");
 
 // Add values to export
 widgets.addWidgetValue("EventKey", $$(eventKey));
 widgets.addWidgetValue("MatchLevel", $$(matchLevel));
 widgets.addWidgetValue("MatchNumber", $$(matchNumber));
 widgets.addWidgetValue("Team", $$(teamData));
-window.alert($$(teamData));
 
 // Updates the loaded status message for a variable.
 // This function takes Ref objects to get a behavior similar to pass-by-reference in C++.
