@@ -123,6 +123,7 @@ widgets.addWidgetValue("EventKey", $$(eventKey));
 widgets.addWidgetValue("MatchLevel", $$(matchLevel));
 widgets.addWidgetValue("MatchNumber", $$(matchNumber));
 widgets.addWidgetValue("Team", $$(teamData));
+window.alert($$(teamData));
 
 // Updates the loaded status message for a variable.
 // This function takes Ref objects to get a behavior similar to pass-by-reference in C++.
