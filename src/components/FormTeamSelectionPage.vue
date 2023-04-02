@@ -124,7 +124,8 @@
   
   // The exported team information
   const teamData = $computed(() => {
-    if (isTBA) return teamsList[selectedTeam] ? Object.values(teamsList[selectedTeam]).join() : "";
+    // old >> if (isTBA) return teamsList[selectedTeam] ? Object.values(teamsList[selectedTeam]).join() : "";
+    if (isTBA) return teamsList[selectedTeam] ? Object.values(teamsList[selectedTeam.number]).join() : "";
     else return `${teamColorManual},0,${teamNumberManual},(no name available)`;
   });
   
