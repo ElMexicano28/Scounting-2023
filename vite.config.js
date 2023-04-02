@@ -1,7 +1,11 @@
+/* eslint-env node */
+
 import autoprefixer from "autoprefixer";
 import { defineConfig } from "vite";
 import { fileURLToPath, URL } from "url";
+import { liveReload } from "vite-plugin-live-reload";
 import postcssNested from "postcss-nested";
+import ReactivityTransform from "@vue-macros/reactivity-transform/vite";
 import { VitePWA } from "vite-plugin-pwa";
 import vue from "@vitejs/plugin-vue";
 
@@ -12,16 +16,18 @@ export default defineConfig({
       plugins: [autoprefixer, postcssNested]
     }
   },
+  define: {
+    APP_VERSION: JSON.stringify(process.env.npm_package_version)
+  },
   plugins: [
-    vue({
-      reactivityTransform: true
-    }),
+    ReactivityTransform(),
+    vue(),
     VitePWA({
       includeAssets: ["assets/*", "icons/*"],
       manifest: {
-        name: "SMASH Scouting",
+        name: "Black Hawks Scouting",
         short_name: "Scouting",
-        description: "A scouting app by FRC Team 2152",
+        description: "A scouting app by FRC Team 2834",
         theme_color: "#292929",
         background_color: "#292929",
         icons: [
@@ -37,7 +43,10 @@ export default defineConfig({
           }
         ]
       }
-    })
+    }),
+    liveReload([
+      "public/"
+    ])
   ],
   resolve: {
     alias: {

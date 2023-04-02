@@ -1,9 +1,9 @@
 <template>
-  <button id="opener" v-if="errors.length > 0" @click="errorList.showModal()">{{ errors.length }} {{ label }}</button>
+  <button id="opener" v-if="errors.length > 0" @click="errorList?.showModal">{{ errors.length }} {{ label }}</button>
   <dialog ref="errorList" id="dialog">
     <div id="dialog-header">
       <h4 id="dialog-title">Error List</h4>
-      <button id="dialog-close" @click="errorList.close()">
+      <button id="dialog-close" @click="errorList?.close">
         <img src="@/assets/close.svg" alt="Close" />
       </button>
     </div>
@@ -73,7 +73,8 @@ const label = $computed(() => (props.errors.length === 1) ? "Error" : "Errors");
 
 .error-entry {
   margin: 4px 0;
-  white-space: nowrap;
+  font-family: monospace;
+  white-space: pre;
 
   &::before {
     vertical-align: middle;
