@@ -25,7 +25,7 @@
     <FormGroup :show="isTBA" :label-type="LabelType.LabelTag" id="team-input" name="Team">
       <span v-if="currentMatch === null">&lt;No Data&gt;</span>
       <select v-else id="team-input" v-model="selectedTeam">
-        <option v-for="[i, { color, index, number, name }] of teamsList.entries()" :key="i" :value="{ number }">
+        <option v-for="[i, { color, index, number, name }] of teamsList.entries()" :key="i" :value="i">
           {{ color }} {{ index }}: {{ number }} ({{ name }})
         </option>
       </select>
