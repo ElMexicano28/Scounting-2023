@@ -20,7 +20,7 @@
   <br>
   <br>
   <footer>
-    <RouterLink style="text-decoration: none;" :to="{ name: 'adrian' }"><h5>Version 1.2.0</h5></RouterLink>
+    <h5>Version 1.3.0</h5>
   </footer>
 </template>
 
