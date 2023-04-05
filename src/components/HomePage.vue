@@ -7,7 +7,6 @@
       <RouterLink :to="{ name: 'form', query: { name } }">{{ name }}</RouterLink>
     </li>
   </ul>
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT9Izg6Gy3iwCINTGfdFu-KOtxyJxEKZhkwQBnmy6b0JtWd1O5EUD5Ri3ZFtCco2gwkOGX8RuwISpGU/pubhtml?gid=1483924457&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
   <p v-else>No configurations specified.</p>
   <h2>Tools</h2>
   <ul class="link-list">
