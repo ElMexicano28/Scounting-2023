@@ -9,7 +9,11 @@
         {
           "name": "Scouter Name",
           "type": "text",
-          "colspan": 2
+          "colspan": 2,
+          "validation": {
+            "comparison": "greater",
+            "value": 0
+          }
         },
         {
           "name": "Starting Position",
@@ -104,7 +108,11 @@
             "Average",
             "Very Effective"
           ],
-          "labelColspan": 2
+          "labelColspan": 2,
+          "validation": {
+            "comparison": "greater",
+            "value": -1
+          }
         }
       ]
     },
